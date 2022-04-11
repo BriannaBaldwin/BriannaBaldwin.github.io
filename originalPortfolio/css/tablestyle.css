@@ -1,0 +1,40 @@
+@charset "utf-8";
+/*Brianna Baldwin
+  November 8, 2020*/
+
+/*Experience Page*/
+table {
+    width: 100%;
+    font-family: 'Bree Serif', 'Times New Roman', serif;
+    font-size: 1.2em;
+    text-align: center;
+    table-layout: fixed;
+    border: 2px double #8AB758;
+}
+tbody> tr > td {
+    border: 1px solid #8AB758;
+    background-color: rgba(138, 183, 88, 0.7);
+}
+thead > tr > th {
+    border: 1px solid #8AB758;
+    background-color: rgba(121, 160, 77, 0.7);
+}
+caption {
+    font-family: 'Bree Serif', 'Times New Roman', serif;
+    font-size: 1.7em;
+    font-weight: 500;
+}
+#table2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+tfoot > tr > td {
+    background-color: rgba(121, 160, 77, 0.7);
+}
+thead > tr > th::first-letter {
+    font-size: 1.4em;
+}
+#table2, #table1 {
+    padding: 0; 
+    border-spacing: 0;
+}
