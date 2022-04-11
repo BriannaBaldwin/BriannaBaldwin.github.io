@@ -21,24 +21,15 @@ CREATE TABLE IF NOT EXISTS volunteer
 CREATE TABLE IF NOT EXISTS form_submission
 (
 	submission_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,	
-	email	VARCHAR(100) NOT NULL,
-	phone	VARCHAR(15) NOT NULL,
+	email	VARCHAR(100) NOT NULL UNIQUE,
+	phone	VARCHAR(15) NOT NULL UNIQUE,
 	country VARCHAR(50) NOT NULL,
 	contact_by VARCHAR(50) NULL,
-	tos 	tinyint NOT NULL,	
+	tos 	BIT(1) NOT NULL,	
 	comments VARCHAR (999) NOT NULL,
 	submission_date DATETIME NOT NULL,
 	volunteer_id	INT NOT NULL,
 	FOREIGN KEY (volunteer_id) REFERENCES volunteer(volunteer_id)
-);
-
-CREATE TABLE IF NOT EXISTS administrators (
-  adminID           INT            NOT NULL   AUTO_INCREMENT,
-  emailAddress      VARCHAR(255)   NOT NULL,
-  password          VARCHAR(255)   NOT NULL,
-  firstName         VARCHAR(60),
-  lastName          VARCHAR(60),
-  PRIMARY KEY (adminID)
 );
 # insert statements for volunteer table
 INSERT INTO volunteer
