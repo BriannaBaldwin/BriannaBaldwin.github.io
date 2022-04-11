@@ -1,0 +1,149 @@
+/* Brianna Baldwin 
+   December 14, 2020 */
+    @import "_variables";
+
+    body {
+        background-color: $backgroundBlue;
+    }
+    nav {
+        letter-spacing: 1.5px;
+        font-size: 1.2rem;
+    }
+
+    .navbar-brand {
+        font-size: 25px;
+    }
+
+    main {
+        margin: 50px;
+   }
+
+    h1, h2 {
+       text-align: center;
+   }
+
+   main p {
+       font-size: 1.4rem;
+       text-align: center;
+       padding-bottom: 40px;
+   }
+
+   footer {
+       background-color: $info;
+       padding: 30px;
+       border-top: 2px solid $dark;
+       min-height: 100%;
+       text-align: center;
+       letter-spacing: 1.5px;
+   }
+
+   footer a, address, footer p{
+       color: $white;
+       text-decoration: none;
+       font-size: 1.1rem;
+   }
+
+   .social_media {
+    height: 40px;
+    width: auto;  
+    padding: 2.5px;
+    margin-bottom: 20px;
+}
+
+    .card {
+        width: 20rem;
+        max-width: 20rem;
+        min-width: 20rem;
+        height: auto;
+    }
+
+    .card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .card:hover {
+        background-color: $lightYellow;
+        opacity: 1;
+    }
+
+    .carousel-inner, .carousel {
+        height: 500px;
+        width: auto;
+        max-width: 800px;
+        margin: auto;
+    }
+
+    .carousel-inner img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        object-position: center;
+        padding-left: 100px;
+        padding-right: 100px;
+
+        border-style: none double;
+        border-color: $lightYellow;
+    }
+
+    .divCarousel {
+        padding-top: 2rem;
+        padding-bottom: 5rem;
+        h2 {
+            padding-bottom: 20px;
+        }
+    }
+
+    .divCards {
+        padding-top: 5rem;
+        h2 {
+            padding-bottom: 20px;
+        }
+    }
+
+    .btn-warning {
+        border-width: 2px;
+        border-color: $black;
+        color: $black;font-weight: 700;
+    }
+
+    .carousel-control-next, 
+    .carousel-control-prev,
+    .carousel-indicators {
+        filter: invert(100%);
+    }
+
+
+    /*=== Mobile Viewport ===*/
+
+    @media  only screen and (max-width: 641px) {
+        nav {
+            display: block;
+        }
+    
+        header {
+            background-image: none;
+        }
+    
+        body {
+            background-image: url("../images/yogamobile.png");
+        }
+
+        .card {
+            width: 15rem;
+            min-width: 15rem;
+            margin: auto;
+        }
+
+        .divCarousel {
+            display: none;
+        }
+    }
+
+
+
+   
+
+   

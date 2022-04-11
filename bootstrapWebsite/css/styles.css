@@ -1,0 +1,144 @@
+/* Brianna Baldwin 
+   December 14, 2020 */
+body {
+  background-color: #d3f3f8;
+}
+
+nav {
+  letter-spacing: 1.5px;
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-size: 25px;
+}
+
+main {
+  margin: 50px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+main p {
+  font-size: 1.4rem;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+footer {
+  background-color: #17a2b8;
+  padding: 30px;
+  border-top: 2px solid #555;
+  min-height: 100%;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+footer a, address, footer p {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.social_media {
+  height: 40px;
+  width: auto;
+  padding: 2.5px;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 20rem;
+  max-width: 20rem;
+  min-width: 20rem;
+  height: auto;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.card:hover {
+  background-color: #ffde7c;
+  opacity: 1;
+}
+
+.carousel-inner, .carousel {
+  height: 500px;
+  width: auto;
+  max-width: 800px;
+  margin: auto;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-style: none double;
+  border-color: #ffde7c;
+}
+
+.divCarousel {
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+.divCarousel h2 {
+  padding-bottom: 20px;
+}
+
+.divCards {
+  padding-top: 5rem;
+}
+
+.divCards h2 {
+  padding-bottom: 20px;
+}
+
+.btn-warning {
+  border-width: 2px;
+  border-color: #000;
+  color: #000;
+  font-weight: 700;
+}
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+/*=== Mobile Viewport ===*/
+@media only screen and (max-width: 641px) {
+  nav {
+    display: block;
+  }
+  header {
+    background-image: none;
+  }
+  body {
+    background-image: url("../images/yogamobile.png");
+  }
+  .card {
+    width: 15rem;
+    min-width: 15rem;
+    margin: auto;
+  }
+  .divCarousel {
+    display: none;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

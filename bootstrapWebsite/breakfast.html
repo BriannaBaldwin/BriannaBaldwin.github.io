@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<!--Brianna Baldwin
+    Dec 15, 2020
+    Template Used: https://bootswatch.com/sketchy/ -->
+<html lang="en">
+
+
+    <head>
+        <title>RecBri Book - Breakfast</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <meta charset="utf-8">
+        <meta name="description" content="Brianna Baldwin's Final Portfolio for SWDV-130">
+        <meta name="keywords" content="HTML, CSS, Bootstrap, Portfolio, Brianna Baldwin">
+        <meta name="author" content="Brianna Baldwin">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Styles -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+        <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+  <body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+            <!-- Navbar Brand -->
+            <a class="navbar-brand" href="_index.html">ReciBri Book</a>
+            <!-- Collapse Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent01" 
+            aria-controls="navbarContent01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <!-- Collapsible Content -->
+            <div class="collapse navbar-collapse" id="navbarContent01">
+            <!-- Links -->
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home
+                      <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="breakfast.html">Breakfast</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="dinner.html">Dinner</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="treats.html">Treats</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+              <!-- Search Button -->
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+    </header>
+<main>
+  <div class="divIntro">
+    <h1>Breakfast</h1>
+    <p>Eggs? Crepes? Fancy breakfast cups to meal prep for the week? Choose from below and cross
+        your fingers that it won't end up too TOASTED! <br><br>
+
+      Lorem ipsum dolor sit amet, ex pri aperiam ocurreret, oporteat perfecto honestatis ex pri, has mundi definiebas posidonium ea.
+      Vis an vero accusata percipitur, qui ex eirmod adipisci tractatos. Labores facilis complectitur ne nec, eam quem affert no. Usu
+      cu inani dicant copiosae, mei ullum nonumes deseruisse ex. Dolore invidunt at sed, ius et vero solum. Summo maiorum phaedrum in
+      per, verterem vituperatoribus pri ad.
+    </p>
+  </div>
+  <div class="divCarousel">
+    <h2>Favorites</h2>
+    <div id="bfastCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+      <!-- Carousel Indicators -->
+      <ol class="carousel-indicators">
+        <li data-bs-target="#bfastCarousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#bfastCarousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#bfastCarousel" data-bs-slide-to="2"></li>
+      </ol>
+      <!-- Carousel Slides -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="https://amyshealthybaking.com/blog/2017/02/14/healthy-apple-pie-spice-cinnamon-rolls/">
+            <img src="images/apple-pie-spice-cinnamon-rolls.jpg" class="d-block w-100" alt="Apple Pie Spice Connamon Rolls">
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://amyshealthybaking.com/blog/2016/10/17/skinny-broccoli-cheddar-turkey-quiche/">
+            <img src="images/broccoli-cheddar-turkey-quiche.jpg" class="d-block w-100" alt="Broccoli and Cheddar Turkey Quiche">
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://amyshealthybaking.com/blog/2020/07/20/healthy-one-bowl-lemon-poppy-seed-muffins/">
+            <img src="images/lemon-poppy-seed-muffins.jpg" class="d-block w-100" alt="lemon poppyseed muffins">
+          </a>
+        </div>
+      </div>
+      <!-- Carousel Controls -->
+      <a class="carousel-control-prev" href="#bfastCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#bfastCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="divCards">
+    <!-- Recipe Cards -->
+    <h2 class="recipeCards">Recipes</h2>
+  <div class="card-deck recipeCards">
+    <!-- Card 1 -->
+    <div class="card mb-3"><a href="https://amyshealthybaking.com/blog/2020/07/20/healthy-one-bowl-lemon-poppy-seed-muffins/">
+      <img src="images/lemon-poppy-seed-muffins.jpg" class="card-image-top" alt="lemon poppyseed muffins">
+      <h3 class="card-header">Lemon Poppyseed Muffins</h3>
+    </a>
+    </div>
+    <!-- Card 2 -->
+    <div class="card mb-3"><a href="https://amyshealthybaking.com/blog/2017/02/14/healthy-apple-pie-spice-cinnamon-rolls/">
+      <img src="images/apple-pie-spice-cinnamon-rolls.jpg" class="card-image-top" alt="Apple Pie Spice Connamon Rolls">
+      <h3 class="card-header">Apple Pie Spice Connamon Rolls</h3>
+    </a>
+    </div>
+    <!-- Card 3 -->
+    <div class="card mb-3"><a href="https://amyshealthybaking.com/blog/2020/05/25/the-ultimate-healthy-zucchini-bread/">
+      <img src="images/zucchini-bread.jpg" class="card-image-top" alt="One Bowl Zucchini Bread">
+      <h3 class="card-header">One Bowl Zucchini Bread</h3>
+    </a>
+    </div>
+    <!-- Card 4 -->
+    <div class="card mb-3"><a href="https://amyshealthybaking.com/blog/2020/05/17/healthy-peach-oatmeal-breakfast-cookies/">
+      <img src="images/peach-oatmeal-breakfast-cookies.jpg" class="card-image-top" alt="Peach Oatmeal Breakfast Cookies">
+      <h3 class="card-header">Peach Oatmeal Breakfast Cookies</h3>
+    </a>
+    </div>
+    <!-- Card 5 -->
+    <div class="card mb-3"><a href="https://amyshealthybaking.com/blog/2018/12/02/healthy-gingerbread-cinnamon-rolls/">
+      <img src="images/gingerbread-cinnamon-rolls.jpg" class="card-image-top" alt="Gingerbread Cinnamon Rolls">
+      <h3 class="card-header">Gingerbread Cinnamon Rolls</h3>
+    </a>
+    </div>
+    <!-- Card 6 -->
+    <div class="card mb-3"><a href="https://amyshealthybaking.com/blog/2020/07/13/healthy-peach-oatmeal-snack-cake/">
+      <img src="images/peach-oatmeal-cake.jpg" class="card-image-top" alt="peach oatmeal breakfast cake">
+      <h3 class="card-header">Peach Oatmeal Breakfast Cake</h3>
+    </a>
+    </div>
+    <!-- Card 7 -->
+    <div class="card mb-3"><a href="https://amyshealthybaking.com/blog/2016/10/17/skinny-broccoli-cheddar-turkey-quiche/">
+      <img src="images/broccoli-cheddar-turkey-quiche.jpg" class="card-image-top" alt="Broccoli and Cheddar Turkey Quiche">
+      <h3 class="card-header">Broccoli and Cheddar Turkey Quiche</h3>
+    </a>
+    </div>
+    <!-- Card 8 -->
+    <div class="card mb-3"><a href="https://amyshealthybaking.com/blog/2015/04/26/skinny-asparagus-feta-quiche/">
+      <img src="images/asparagus-feta-quiche.jpg" class="card-image-top" alt="Asparagus and Feta Quiche">
+      <h3 class="card-header">Asparagus and Feta Quiche</h3>
+    </a>
+    </div>
+    <!-- Card 9 -->
+    <div class="card mb-3"><a href="https://amyshealthybaking.com/blog/2018/01/11/the-ultimate-healthy-mini-cinnamon-rolls/">
+      <img src="images/mini-cinnamon-rolls.jpg" class="card-image-top" alt="Mini Cinnamon Rolls">
+      <h3 class="card-header">Tasty Mini Cinnamon Rolls</h3>
+    </a>
+    </div>
+  </div>
+  </div>
+
+</main>
+<!-- Footer -->
+<footer>
+  <address><p class="left-side">1234 N Street Ave<br>New York, NY 10001</p></address>
+    <p class="right-side"><a href="mailto:janedoe@email.com">janedoe@email.com</a></p>
+    <p class="right-side" id="right-bottom"><a href="tel:+12223334444">(222) 333-4444</a></p>
+    <a href="https://www.facebook.com/" target="blank"><img src="./images/facebook.png" class="social_media" alt="facebook icon"></a>
+    <a href="https://github.com/" target="blank"><img src="./images/github.png" class="social_media" alt="github icon"></a>
+    <br><p>&copy; Copyright 2021. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
